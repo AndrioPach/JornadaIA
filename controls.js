@@ -1,5 +1,5 @@
 export default {
-    jump: new KeyboardEvent('keydown', {key: 'space', keyCode: 21}),
+    jump: new KeyboardEvent('keydown', {key: 'Space', keyCode: 32}),
     dispatch(event){
         document.dispatchEvent(this[event]);
     }
